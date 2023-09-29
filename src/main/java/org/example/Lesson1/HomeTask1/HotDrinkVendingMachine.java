@@ -5,7 +5,7 @@ import java.util.List;
 
 public class HotDrinkVendingMachine implements VendingMachine<HotDrink> {
 
-    public List<HotDrink> hotDrinkList = new ArrayList<>();
+    private List<HotDrink> hotDrinkList = new ArrayList<>();
 
     @Override
     public void initProducts(List<HotDrink> hotDrinkList) {
@@ -40,6 +40,7 @@ public class HotDrinkVendingMachine implements VendingMachine<HotDrink> {
                 count++;
             }
         }
+
 
         System.out.print((count == 0) ? ("Product " + name + " with vol " + volume + " and temp " + temp + " not found") : "");
     }

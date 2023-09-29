@@ -1,7 +1,7 @@
 package org.example.Lesson1.HomeTask1;
 
 public class HotDrink extends Drink {
-    int temp;
+    protected int temp;
 
     public int getTemp() {
         return temp;

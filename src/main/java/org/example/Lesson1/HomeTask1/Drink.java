@@ -2,7 +2,7 @@ package org.example.Lesson1.HomeTask1;
 
 public class Drink extends Product{
 
-    float volume;
+    protected float volume;
 
     public Drink(String name, int price, float volume) {
         super(name, price);
@@ -13,11 +13,6 @@ public class Drink extends Product{
         return volume;
     }
 
-//    public Drink(String name, float volume, int price) {
-//        this.name = name;
-//        this.volume = volume;
-//        this.price = price;
-//    }
 
     @Override
     public String toString() {
@@ -26,4 +21,6 @@ public class Drink extends Product{
                 "Volume: " + volume + "\n" +
                 "Price: " + price + "\n";
     }
+
+
 }
