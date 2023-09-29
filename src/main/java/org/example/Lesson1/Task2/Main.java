@@ -41,7 +41,7 @@ public class Main {
         System.out.println("-".repeat(10));
         vendingMachineOfCola.printProduct("bottleOfCola");
 //        System.out.println(bottleOfCola1l.getName());
-        vendingMachineOfCola.printProduct(3);
+//        vendingMachineOfCola.printProduct(3);
 
 
     }

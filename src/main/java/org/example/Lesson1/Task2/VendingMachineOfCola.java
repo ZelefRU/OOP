@@ -17,9 +17,9 @@ public class VendingMachineOfCola<BottleOfCola> implements Authomat<BottleOfCola
     @Override
     public void initProducts(List<BottleOfCola> bottleList) {
         for (int i = 0; i < bottleList.size(); i++) {
-            if (bottleList.get(i).get() == vol){
-                System.out.println(list.get(i));
-            }
+//            if (bottleList.get(i).get() == vol){
+//                System.out.println(list.get(i));
+//            }
         }
     }
 
